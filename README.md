@@ -12,7 +12,7 @@ This is a small website about fitness supplements. People can see products and b
 ## Pages
 - Home
 - About
-- Shop (click product to see more)
+- Shop
 - Contact
 - Admin login
 
