@@ -1,2 +1,36 @@
-# php_project
-PHP e - commerce site with admin and public pages.
+# MuscleFuel Web App
+
+## What is this
+This is a small website about fitness supplements. People can see products and buy them. Admin can login and logout.
+
+## Tech
+- PHP
+- MySQL
+- HTML
+- CSS
+
+## Pages
+- Home
+- About
+- Shop (click product to see more)
+- Contact
+- Admin login
+
+## Admin
+- Admin can login and logout
+- Admin can manage products
+- Only admin can see admin pages
+
+## How to use
+1. Import db.sql in MySQL
+2. Change Database.php with your own informations
+3. Open the website
+4. Login with admin
+
+### Admin test
+- Email: test@musclefuel.com
+- Password: 1234
+
+## Note
+- Pages are simple and responsive
+- All products from database
