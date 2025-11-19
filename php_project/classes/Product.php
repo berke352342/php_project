@@ -18,6 +18,13 @@ class Product {
         $stmt->execute([$id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
       }
+
+     public function destroy($id) {
+          $stmt = $this->conn->prepare("DELETE FROM products WHERE id = ?");
+          $stmt->execute([(int)$id]);
+          return $stmt->rowCount(); // it return 0 or 1
+      }
       
- }
+  }
+ 
 ?>
